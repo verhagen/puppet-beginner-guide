@@ -1,5 +1,3 @@
 node 'agent' {
-	package { 'nginx':
-		ensure => installed,
-	}
+	include nginx
 }
