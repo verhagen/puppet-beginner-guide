@@ -1,5 +1,5 @@
 node 'agent' {
-	file { '/tmp/hello':
-		content => "Hello world!\n",
+	package { 'nginx':
+		ensure => installed,
 	}
 }
