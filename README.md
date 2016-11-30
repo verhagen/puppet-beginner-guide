@@ -1,11 +1,26 @@
 # Learning Puppet
 
+This project helps in getting started with _Learning Puppet_ by creating a Puppet agent/master environment.
 
 <img  src="https://github.com/verhagen/puppet-beginner-guide/raw/master/images/book-learning-puppet.png" />
 <img  src="https://github.com/verhagen/puppet-beginner-guide/raw/master/images/book-puppet-3-beginners-guide.png" />
 
 - [Learning Puppet - Kindle Edition](https://www.amazon.com/Learning-Puppet-Bill-Ward-ebook/dp/B01F4T7LBM)
 - [Puppet 3 Beginner’s Guide - Kindle Edition](https://www.amazon.com/Puppet-Beginners-Guide-John-Arundel-ebook/dp/B00BN4P87C)
+
+The following Operating System releases and Puppet releases are supported.
+ 
+| Operating Systems | Puppet Release 3 | Puppet Release 4 |
+| ------------------| ---------------- | ---------------- |
+| [Ubuntu](https://www.ubuntu.com/) - Xenial  |   | * |
+| [Ubuntu](https://www.ubuntu.com/) - Trusty  | * | * |
+| [Ubuntu](https://www.ubuntu.com/) - Precise | * | * |
+
+
+## Prerequisites
+
+- [VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
 
 
 ## Launch Puppet through Vagrant
@@ -18,9 +33,11 @@
 
 **TIP:** Ubuntu Xenial only support Puppet 4. The Precise and Trusty support Puppet 3 and Puppet 4.
 
-	#VM_BOX = "ubuntu/precise64"
-	#VM_BOX = "ubuntu/trusty64"
-	#VM_BOX = "ubuntu/xenial64"
+**WARNING:** Puppet 3 is end of life see the [platform-support-lifecycle](https://puppet.com/content/platform-support-lifecycle)
+
+	#VM_BOX = "ubuntu/precise64"    # Supports Puppet v3 and v4
+	#VM_BOX = "ubuntu/trusty64"     # Supports Puppet v3 and v4
+	#VM_BOX = "ubuntu/xenial64"     # Supports Puppet v4 only
 
 
 ### Choose Puppet v3 or v4
