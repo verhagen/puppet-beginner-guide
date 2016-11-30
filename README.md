@@ -5,7 +5,7 @@
 <img  src="https://github.com/verhagen/puppet-beginner-guide/raw/master/images/book-puppet-3-beginners-guide.png" />
 
 - [Learning Puppet - Kindle Edition](https://www.amazon.com/Learning-Puppet-Bill-Ward-ebook/dp/B01F4T7LBM)
-- [Puppet 3 Beginner’s Guide - Kindle Edition](https://www.amazon.com/Puppet-Beginners-Guide-John-Arundel-ebook/dp/B00BN4P87C) |
+- [Puppet 3 Beginner’s Guide - Kindle Edition](https://www.amazon.com/Puppet-Beginners-Guide-John-Arundel-ebook/dp/B00BN4P87C)
 
 
 ## Launch Puppet through Vagrant
@@ -32,6 +32,7 @@ In the files `agent.sh` and `master.sh` is defined which Puppet version is used.
 - Open the file `agent.sh` for editing.
 - Remove the hashes of the lines, under the Puppet release that should be used.  
 
+```
 	# Puppet 4
 	#wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
 	#dpkg -i puppetlabs-release-pc1-trusty.deb
@@ -43,23 +44,24 @@ In the files `agent.sh` and `master.sh` is defined which Puppet version is used.
 	#dpkg -i puppetlabs-release-trusty.deb
 	#apt-get update
 	#apt-get install -y puppet
+```
 
 **Puppet Master** Remove the hashes, for the version to install 
 
 - Open the file `master.sh` for editing.
 - Remove the hashes of the lines, under the Puppet release that should be used.  
 
-	# Puppet 4
-	#wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
-	#dpkg -i puppetlabs-release-pc1-trusty.deb
-	
-	# Puppet 3
-	#wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
-	#dpkg -i puppetlabs-release-trusty.deb
-	
-	apt-get update
-	apt-get install -y puppetserver
+```# Puppet 4
+#wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
+#dpkg -i puppetlabs-release-pc1-trusty.deb
 
+# Puppet 3
+#wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
+#dpkg -i puppetlabs-release-trusty.deb
+
+apt-get update
+apt-get install -y puppetserver
+```
 
 ### Launch / Stop / Remove the Puppet Agent and Master
 
