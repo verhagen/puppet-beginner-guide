@@ -5,11 +5,27 @@
 
 ## Launch Puppet through Vagrant
 
+
+### Choose the Ubuntu Release
+
+- Open the file `Vagrantfile` for editing.
+- Remove the hash `#` for the Ubuntu release that should be used 
+
+**TIP:** Ubuntu Xenial only support Puppet 4. The Precise and Trusty support Puppet 3 and Puppet 4.
+
+	#VM_BOX = "ubuntu/precise64"
+	#VM_BOX = "ubuntu/trusty64"
+	#VM_BOX = "ubuntu/xenial64"
+
+
 ### Choose Puppet v3 or v4
 
 In the files `agent.sh` and `master.sh` is defined which Puppet version is used. 
 
 **Puppet Agent** Remove the hashes, for the version to install 
+
+- Open the file `agent.sh` for editing.
+- Remove the hashes of the lines, under the Puppet release that should be used.  
 
 	# Puppet 4
 	#wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
@@ -24,6 +40,9 @@ In the files `agent.sh` and `master.sh` is defined which Puppet version is used.
 	#apt-get install -y puppet
 
 **Puppet Master** Remove the hashes, for the version to install 
+
+- Open the file `master.sh` for editing.
+- Remove the hashes of the lines, under the Puppet release that should be used.  
 
 	# Puppet 4
 	#wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
