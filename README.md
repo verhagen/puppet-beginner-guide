@@ -16,8 +16,8 @@ The following Operating System releases and Puppet releases are supported.
 | [Ubuntu](https://www.ubuntu.com/) - Trusty 64  | :white_check_mark: | :white_check_mark: |
 | [Ubuntu](https://www.ubuntu.com/) - Precise 64 | :white_check_mark: | :white_check_mark: |
 
-The _Puppet agent/master environment_ is created as a _Virtual environment_. For the running the Virtual Machines
-[VirtualBox](https://www.virtualbox.org/) is used. For setting up, launching, stopping or destroying these VM's
+The _Puppet agent/master environment_ is created as a _Virtual environment_. The Virtual Machines will be running in
+[VirtualBox](https://www.virtualbox.org/). For creating, starting, stopping or destroying these VM's
 [Vagrant](https://www.vagrantup.com/) is used.
 
 The `Vagrantfile` contains the description of the two virtual machines. The _Puppet agent_ and _Puppet master_.
