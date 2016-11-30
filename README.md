@@ -12,9 +12,11 @@ The following Operating System releases and Puppet releases are supported.
  
 | Operating Systems | Puppet Release 3 | Puppet Release 4 |
 | ------------------| ---------------- | ---------------- |
-| [Ubuntu](https://www.ubuntu.com/) - Xenial  |   | * |
-| [Ubuntu](https://www.ubuntu.com/) - Trusty  | * | * |
-| [Ubuntu](https://www.ubuntu.com/) - Precise | * | * |
+| [Ubuntu](https://www.ubuntu.com/) - Xenial 64  |   | :white_check_mark: |
+| [Ubuntu](https://www.ubuntu.com/) - Trusty 64  | :white_check_mark: | :white_check_mark: |
+| [Ubuntu](https://www.ubuntu.com/) - Precise 64 | :white_check_mark: | :white_check_mark: |
+
+The Vagrant base-box is from the official [Ubuntu at HasiCorp](https://atlas.hashicorp.com/ubuntu/) repository.
 
 
 ## Prerequisites
