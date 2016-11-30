@@ -11,7 +11,7 @@ This project helps in getting started with _Learning Puppet_ by creating a Puppe
 The following Operating System releases and Puppet releases are supported.
  
 | Operating Systems | Puppet Release 3 | Puppet Release 4 |
-| ------------------| ---------------- | ---------------- |
+| ------------------| :--------------: | :--------------: |
 | [Ubuntu](https://www.ubuntu.com/) - Xenial 64  |   | :white_check_mark: |
 | [Ubuntu](https://www.ubuntu.com/) - Trusty 64  | :white_check_mark: | :white_check_mark: |
 | [Ubuntu](https://www.ubuntu.com/) - Precise 64 | :white_check_mark: | :white_check_mark: |
