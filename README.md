@@ -1,6 +1,7 @@
 # Learning Puppet
 
-| <img  src="https://github.com/verhagen/puppet-beginner-guide/raw/master/images/book-learning-puppet.png" /> | <img  src="https://github.com/verhagen/puppet-beginner-guide/raw/master/images/book-puppet-3-beginners-guide.png" /> |
+
+| book | book |
 | [Learning Puppet - Kindle Edition](https://www.amazon.com/Learning-Puppet-Bill-Ward-ebook/dp/B01F4T7LBM) | [Puppet 3 Beginner’s Guide - Kindle Edition](https://www.amazon.com/Puppet-Beginners-Guide-John-Arundel-ebook/dp/B00BN4P87C) |
 
 
