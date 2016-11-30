@@ -1,7 +1,9 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 VAGRANTFILE_API_VERSION = "2"
-VM_BOX = "ubuntu/trusty64"
+#VM_BOX = "ubuntu/precise64"
+#VM_BOX = "ubuntu/trusty64"
+#VM_BOX = "ubuntu/xenial64"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "puppet" do |puppet|
