@@ -23,10 +23,13 @@ The _Puppet agent/master environment_ is created as a _Virtual environment_. The
 The `Vagrantfile` contains the description of the two virtual machines. The _Puppet agent_ and _Puppet master_.
 These VM's are connected through a virtual network.
 
-The Vagrant base-box is from the official [Ubuntu at HasiCorp](https://atlas.hashicorp.com/ubuntu/) repository.
+The Vagrant base-boxes are from the official [Ubuntu at HasiCorp](https://atlas.hashicorp.com/ubuntu/) repository.
 
 
 ## Prerequisites
+
+The following tools should be installed for using thies _getting started_ project. They are available for:
+OS-X, Linux and Windows.
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [Vagrant](https://www.vagrantup.com/)
@@ -92,7 +95,7 @@ apt-get install -y puppetserver
 ```
 
 
-### Launch / Stop / Remove the Puppet Agent and Master
+### Creating / Starting / Stopping / Destroying the Puppet Agent and Master
 
 Once the environment is launched, the files from this directory are synchronized with the
 Virtual Machines. In the VM they are located in `/vagrant`. 
