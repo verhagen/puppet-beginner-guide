@@ -32,7 +32,7 @@ In the files `agent.sh` and `master.sh` is defined which Puppet version is used.
 - Open the file `agent.sh` for editing.
 - Remove the hashes of the lines, under the Puppet release that should be used.  
 
-
+```
 	# Puppet 4
 	#wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
 	#dpkg -i puppetlabs-release-pc1-trusty.deb
@@ -44,6 +44,7 @@ In the files `agent.sh` and `master.sh` is defined which Puppet version is used.
 	#dpkg -i puppetlabs-release-trusty.deb
 	#apt-get update
 	#apt-get install -y puppet
+```
 
 
 **Puppet Master** Remove the hashes, for the version to install 
